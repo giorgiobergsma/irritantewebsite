@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;;
+}
+
+.main-left {
+    background: #f3f3f3;
+    float: left;
+    width: 50%;
+    height: 46.4vw;
+}
+
+.main-left h1
+{
+
+}
+
+.main-right {
+    float: right;
+    /* background: rgb(255, 0, 83); */
+    background: linear-gradient(180deg, rgba(255, 0, 83, 1) 0%, rgba(128, 10, 48, 1) 100%);
+    width: 50%;
+    height: 46.4vw;
+}
+
+.main-right img {
+    width: 45%;
+    height: 90%;
+    display: block;
+    margin: auto;
+}
