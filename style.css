@@ -5,14 +5,14 @@
 
 body {
     width: 100%;
-    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
 }
 
 .main-left {
-    background: #f3f3f3;
+    background: #fff;
     float: left;
     width: 50%;
-    height: 46.4vw;
+    height: 46.4vw  ;
 }
 
 .container
@@ -64,7 +64,7 @@ body {
 .main-right {
     float: right;
     /* background: rgb(255, 0, 83); */
-    background: linear-gradient(180deg, rgba(255, 0, 83, 1) 0%, rgba(128, 10, 48, 1) 100%);
+    background: #d51846;
     width: 50%;
     height: 46.4vw;
 }
