@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, Roboto, sans-serif;
+}
+
+.main-left {
+    background: #fff;
+    float: left;
+    width: 50%;
+    height: 46.4vw  ;
+}
+
+.container
+{
+    margin-top: 20%;
+    margin-left: 18%;
+}
+
+.container img
+{
+    width: 7%;
+    height: 7%;
+    margin-bottom: 3%;
+}
+
+.container h1
+{
+    font-size: 2vw;
+    margin-bottom: 3%;
+    margin-right: 30%;
+}
+
+.container p
+{
+    font-size: 1.1vw;
+    margin-right: 20%;
+    line-height: 130%;
+}
+
+.download
+{
+    margin-top: 3%;
+    display: block;
+}
+
+.download img
+{
+    width: 25%;
+    height: 25%;
+    /* padding-left: 1%; */
+}
+
+.small-text p
+{
+    font-size: 0.8vw;
+   color: #999; 
+}
+
+.main-right {
+    float: right;
+    /* background: rgb(255, 0, 83); */
+    background: #d51846;
+    width: 50%;
+    height: 46.4vw;
+}
+
+.main-right img {
+    width: 45%;
+    height: 90%;
+    display: block;
+    margin-top: 2%;
+    margin: auto;
+}
