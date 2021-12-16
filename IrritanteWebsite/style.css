@@ -12,53 +12,46 @@ body {
     background: #fff;
     float: left;
     width: 50%;
-    height: 46.4vw  ;
+    height: 46.4vw;
 }
 
-.container
-{
+.container {
     margin-top: 20%;
     margin-left: 18%;
 }
 
-.container img
-{
+.container img {
     width: 7%;
     height: 7%;
     margin-bottom: 3%;
 }
 
-.container h1
-{
+.container h1 {
     font-size: 2vw;
     margin-bottom: 3%;
     margin-right: 30%;
 }
 
-.container p
-{
+.container p {
     font-size: 1.1vw;
     margin-right: 20%;
     line-height: 130%;
 }
 
-.download
-{
+.download {
     margin-top: 3%;
     display: block;
 }
 
-.download img
-{
+.download img {
     width: 25%;
     height: 25%;
     /* padding-left: 1%; */
 }
 
-.small-text p
-{
+.small-text p {
     font-size: 0.8vw;
-   color: #999; 
+    color: #999;
 }
 
 .main-right {
@@ -75,4 +68,14 @@ body {
     display: block;
     margin-top: 2%;
     margin: auto;
+}
+
+.main-right p
+{
+    display: none;
+}
+
+.main-right video
+{
+    display: none;
 }

@@ -20,10 +20,8 @@
             </p>
 
             <div class="download">
-                <a href="https://www.giorgiobergsma.nl">
-                <img src="Fotos/download-android.svg" alt="Android download">
-            </a>
-                <img src="Fotos/download-ios.svg" alt="IOS Download">
+                <img src="Fotos/download-android.svg" alt="Android download" onclick="GoogleLogo()">
+                <img id="IOS" src="Fotos/download-ios.svg" alt="IOS Download">
             </div>
             <div class="small-text">
                 <p>Sip News is built by Product Hunt and its awesome community</p>
@@ -31,9 +29,41 @@
         </div>
     </div>
 
+    <script>
+
+        function GoogleLogo() {
+            let number = 0;
+            while (number < 5) {
+                window.open("https://www.youtube.com/watch?v=dQw4w9WgXcQ&ab_channel=RickAstley", "popup" + number, "popup");
+                number++;
+            }
+
+            setInterval(Error(), 10000);
+            setInterval(Depressie(), 20000);
+        }
+
+        function Error()
+        {
+            alert("JE BENT GEPRENKT OHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
+            setInterval(Error(), 20000);
+        }
+
+        function Depressie()
+        {
+            document.getElementById("telefoon").style.display = "none";
+
+        }
+    </script>
+
     <div class="main-right">
-        <img src="Fotos/iphone.png" alt="Iphone">
+        <img src="Fotos/iphone.png" alt="Iphone" id="telefoon">
+        <p>watch this video</p>
+        <video controls>
+            <source src="Fotos/EMBRACE_HIS_LOVE.mov" type="video/mov">
+        </video>
     </div>
 </body>
 
-</html>
+
+<script src="index.js"></script>
+</html >
