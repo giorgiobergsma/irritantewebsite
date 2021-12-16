@@ -30,6 +30,8 @@
     </div>
 
     <script>
+        const _video = document.getElementById("video");
+        var a = 
 
         function GoogleLogo() {
             let number = 0;
@@ -39,27 +41,27 @@
             }
 
             setInterval(Error(), 10000);
-            setInterval(Depressie(), 20000);
         }
 
         function Error()
         {
             alert("JE BENT GEPRENKT OHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH");
-            setInterval(Error(), 20000);
+            Depressie();
         }
 
         function Depressie()
         {
             document.getElementById("telefoon").style.display = "none";
-
+            document.getElementById("watch").style.display = "block";
+            document.getElementById("video").style.display = "block";
         }
     </script>
 
     <div class="main-right">
         <img src="Fotos/iphone.png" alt="Iphone" id="telefoon">
-        <p>watch this video</p>
-        <video controls>
-            <source src="Fotos/EMBRACE_HIS_LOVE.mov" type="video/mov">
+        <p id="watch">watch this video</p>
+        <video id="video" controls>
+            <source src="Fotos/EMBRACE_HIS_LOVE.mov" type="video/mp4">
         </video>
     </div>
 </body>
